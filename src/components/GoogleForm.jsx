@@ -54,11 +54,13 @@ const GoogleForm = () => {
 
   return (
     <div className="max-w-lg mx-auto p-6 bg-white shadow-md rounded-md mt-10">
-      <h1 className="text-2xl font-bold mb-4">দেশ সংস্কার আন্দোলন</h1>
-      <p className="mb-2 text-xl font-semibold text-red-800">ইন্টারনেট বন্ধ হয়ে গেলে আপনাদের দেওয়া নাম্বার এ কর্মসূচী আপডেট জানিয়ে দেওয়া হবে </p>
-      <p className="mb-2 text-red-800">ছাত্রলীগ দূরে থাক </p>
-      <p className="mb-2 text-red-800">সঠিক তথ্য দিয়ে সহায়তা করুন </p>
-      <p className="mb-6 text-red-800">টোকাই লীগ কে বয়কট করুন  </p>
+      <h1 className="text-3xl font-bold mb-4">দেশ সংস্কার আন্দোলন</h1>
+      <p className="mb-2 font-semibold text-red-900">ইন্টারনেট বন্ধ হয়ে গেলে আপনাদের দেওয়া নাম্বার এ কর্মসূচী আপডেট জানিয়ে দেওয়া হবে </p>
+      <p className="mb-2 font-bold text-red-900">আপনার তথ্য
+       শুধু অ্যাডমিন দেখতে পারবে </p>
+      <p className="mb-2 text-sm text-red-900">*ছাত্রলীগ দূরে থাক </p>
+      <p className="mb-2 text-sm text-red-900">*সঠিক তথ্য দিয়ে সহায়তা করুন </p>
+      <p className="mb-6 text-sm text-red-900">*টোকাই লীগ কে বয়কট করুন  </p>
       <p className="text-gray-600 mb-6">Please fill out the form below.</p>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">

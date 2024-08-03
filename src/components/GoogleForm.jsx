@@ -29,7 +29,7 @@ const GoogleForm = () => {
     e.preventDefault();
     if (validate()) {
       // handle form submission
-      const res = await fetch('http://localhost:5000/api/post', {
+      const res = await fetch('https://student-list-flame.vercel.app/api/post', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
